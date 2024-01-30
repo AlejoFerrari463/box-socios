@@ -9,9 +9,9 @@
 
 .fondo_header {
 
-    padding-top: 12px;
+    padding-top: 10px;
     background-color: #030637;
-    height: 6.5vh;
+    height: 7vh;
     margin-bottom: 22px;
     color: #B81485;
 
@@ -20,8 +20,8 @@
 ul {
 
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 0 10px;
 
 
@@ -35,20 +35,11 @@ a {
 }
 
 
-.inline {
-
-    display: inline;
-    margin: auto;
-
-}
-
 
 
 .hamburguesa {
 
     position: relative;
-    height: 22px;
-    width: 20px;
 
 }
 
@@ -68,11 +59,7 @@ a {
 .perfil {
 
     position: relative;
-    height: 22px;
-    width: 20px;
-    border-radius: 10px;
-    border: 3px solid aqua;
-    background-color: #B81485;
+
 
 }
 
@@ -106,11 +93,20 @@ a {
 
 .menu {
     
-    height: 22px;
-    width: 20px;
-    border: 5px solid #B81485;
+    height: 4vh;
+    width: 10vw;
+    z-index: 1;
 
 }
+
+.usuario {
+
+    height: 4vh;
+    width: 10vw;
+    z-index: 1;
+
+}
+
 
 
 /* HEADER - FIN */
