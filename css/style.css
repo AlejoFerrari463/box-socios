@@ -7,11 +7,16 @@
  
 /* HEADER - INICIO */
 
+.nombre {
+
+    font-size: 30px;
+
+}
+
 .fondo_header {
 
-    padding-top: 10px;
     background-color: #030637;
-    height: 7vh;
+    height: 60px;
     margin-bottom: 22px;
     color: #B81485;
 
@@ -20,9 +25,9 @@
 ul {
 
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
+    align-items: center;
+    padding: 0 15px;
     list-style-type: none;
 
 
@@ -31,9 +36,10 @@ ul {
 div ul {
 
     display: grid;
-    margin: 10px 13px;
-    padding-left: 20px;
+    margin-top: 10px;
+    padding-left: 30px;
     grid-gap: 20px;
+
     
 }
 
@@ -47,10 +53,10 @@ a {
 .imagen {
 
     position: relative;
-    left: -33px;
-    top: -10px;
-    width: 70.7vw;
+    width: 70vw;
     height: 20vh;
+    margin-top: -10px;
+    margin-left: -30px;
   
 }
 
@@ -112,16 +118,17 @@ a {
 
 .menu {
     
-    height: 4vh;
-    width: 10vw;
+    height: 40px;
+    width: 60px;
     z-index: 1;
+
 
 }
 
 .usuario {
 
-    height: 4vh;
-    width: 10vw;
+    height: 40px;
+    width: 60px;
     z-index: 1;
 
 }
