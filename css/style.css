@@ -4,6 +4,13 @@
     padding: 0;
 
 }
+/* 
+color-fondo: #030637;
+color-principal: #B81485;
+color-secundario: #910A67;
+
+
+*/
  
 /* HEADER - INICIO */
 
@@ -143,7 +150,8 @@ a {
 .card {
 
     box-shadow: 2px 2px 5px #910A67;
-    border: 2px solid #3C0753;
+    border: 2px solid #030637;
+    border-right: none;
     margin: 0 10px;
 
 }
@@ -159,3 +167,16 @@ a {
     margin-top: -20px;
 
 }
+
+/* INDEX - FIN */
+
+/* TIMES - INICIO */
+
+.list-group-item  {
+
+    border: 2px solid #030637;
+    padding: 15px;
+
+
+}
+
