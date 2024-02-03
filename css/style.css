@@ -2,30 +2,53 @@
 
     margin: 0;
     padding: 0;
+    
 
 }
+
+body {
+
+    background: radial-gradient(circle,#fff,#ddd);
+
+}
+
 /* 
+
+ANTERIORES
 color-fondo: #030637;
 color-principal: #B81485;
 color-secundario: #910A67;
+
+ACTUAL
+color-fondo: #271A27;
+color-principal: #3CC6B7;
+color-secundario: #B87038;
 
 
 */
  
 /* HEADER - INICIO */
 
-.nombre {
+h1 {
 
-    font-size: 30px;
+    color: #3CC6B7;
 
 }
 
+
+.nombre {
+
+    font-size: 30px;
+    color: #3CC6B7;
+
+}
+
+
 .fondo_header {
 
-    background-color: #030637;
+    background-color: #271A27;
     height: 60px;
     margin-bottom: 22px;
-    color: #B81485;
 
 }
 
@@ -43,7 +66,7 @@ ul {
 div ul {
 
     display: grid;
-    margin-top: 10px;
+    margin-top: 50px;
     padding-left: 30px;
     grid-gap: 20px;
 
@@ -52,20 +75,11 @@ div ul {
 
 a {
 
-    color: #B81485;
+    color: #3CC6B7;
     text-decoration: none;
 
 }
 
-.imagen {
-
-    position: relative;
-    width: 67vw;
-    height: 20vh;
-    margin-top: -10px;
-    margin-left: -30px;
-  
-}
 
 
 .hamburguesa {
@@ -79,8 +93,9 @@ a {
 
     position: fixed;
     height: 100vh;
-    width: 67vw;
-    background-color: #030637;
+    width: 70vw;
+    background-color: #271A27;
+    color: #B87038;
     box-shadow: 6px 0px 10px black;
     left: -80vw;
     transition: 0.4s left;
@@ -100,7 +115,9 @@ a {
     position: fixed;
     height: 100vh;
     width: 70vw;
-    background-color: blueviolet;
+    background-color: #271A27;
+    color: #8F562A;
+    box-shadow: -6px 0px 10px black;
     right: -80vw;
     transition: 0.4s right;
     top: 0;
@@ -149,8 +166,8 @@ a {
 
 .card {
 
-    box-shadow: 2px 2px 5px #910A67;
-    border: 2px solid #030637;
+    box-shadow: 2px 2px 5px #3CC6B7;
+    border: 2px solid #271A27;
     border-right: none;
     margin: 0 10px;
 
@@ -174,7 +191,7 @@ a {
 
 .list-group-item  {
 
-    border: 2px solid #030637;
+    border: 2px solid #271A27;
     padding: 15px;
 
 
