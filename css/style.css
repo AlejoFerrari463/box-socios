@@ -69,15 +69,7 @@ ul {
 
 }
 
-div ul {
 
-    display: grid;
-    margin-top: 55px;
-    padding-left: 35px;
-    grid-gap: 25px;
-
-    
-}
 
 a {
 
@@ -88,13 +80,14 @@ a {
 }
 
 
+/* HAMBURGUESA - INICIO */
 
 .hamburguesa {
 
     position: relative;
+     
 
 }
-
 
 .hamburguesa_desplegar {
 
@@ -110,6 +103,29 @@ a {
     top: 0;
     z-index: 1;
 }
+
+.hamburguesa:hover > .hamburguesa_desplegar {
+
+    left: 0px;
+
+}
+
+.contenedorMenuHamburguesa {
+
+    display: grid;
+    margin-top: 55px;
+    padding-left: 10%;
+    grid-gap: 25px;
+
+
+}
+
+
+
+/* HAMBURGUESA - FIN */
+
+
+/* PERFIL - INICIO */
 
 .perfil {
 
@@ -137,17 +153,47 @@ a {
 
 
 
-.hamburguesa:hover > .hamburguesa_desplegar {
-
-    left: 0px;
-
-}
-
 .perfil:hover > .perfil_desplegar {
 
     right: 0px;
 
 }
+
+
+.fotoPerfilContenedor {
+
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.fotoPerfil {
+
+    width: 130px;
+    height: 130px;
+  
+}
+
+
+
+.contenedorMenuPerfil {
+
+    margin: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    color: #3CC6B7;
+
+
+}
+
+
+/* PERFIL - FIN */
 
 .menu {
     
@@ -157,9 +203,6 @@ a {
 
 
 }
-
-
-
 
 /* HEADER - FIN */
 
