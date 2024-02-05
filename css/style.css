@@ -72,9 +72,9 @@ ul {
 div ul {
 
     display: grid;
-    margin-top: 50px;
-    padding-left: 30px;
-    grid-gap: 20px;
+    margin-top: 55px;
+    padding-left: 35px;
+    grid-gap: 25px;
 
     
 }
@@ -83,6 +83,7 @@ a {
 
     color: #3CC6B7;
     text-decoration: none;
+    font-size: 22px;
 
 }
 
@@ -102,6 +103,7 @@ a {
     width: 70vw;
     background-color: #271A27;
     color: #B87038;
+    font-size: 22px;
     box-shadow: 6px 0px 10px black;
     left: -80vw;
     transition: 0.4s left;
@@ -122,7 +124,8 @@ a {
     height: 100vh;
     width: 70vw;
     background-color: #271A27;
-    color: #8F562A;
+    color: #B87038;
+    font-size: 22px;
     box-shadow: -6px 0px 10px black;
     right: -80vw;
     transition: 0.4s right;
