@@ -53,12 +53,14 @@ h2 {
 .fondo_header {
 
     background-color: #271A27;
-    height: 60px;
+    height: 7.5vh;
     margin-bottom: 22px;
+    z-index: 999;
 
 }
 
 ul {
+
 
     display: flex;
     justify-content: space-between;
@@ -181,13 +183,13 @@ a {
 
 
 .contenedorMenuPerfil {
-
-    margin: auto;
-    margin-top: 10px;
-    width: 200px;
-    height: 100px;
-    text-align: center;
+    
+    display: grid;
+    margin-top: 20px;
     color: #3CC6B7;
+    grid-gap: 10px;
+    text-align: center;
+
 
 
 }
@@ -197,8 +199,8 @@ a {
 
 .menu {
     
-    height: 40px;
-    width: 60px;
+    height: 50px;
+    object-fit: contain;
     z-index: 1;
 
 
