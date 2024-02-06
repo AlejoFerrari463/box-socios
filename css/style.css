@@ -8,22 +8,23 @@
 
 body {
 
-    background:#E8E8E8
+    background:#191919;
 
 }
 
 /* 
 
 ANTERIORES
-color-fondo: #030637;
-color-principal: #B81485;
-color-secundario: #910A67;
-
-ACTUAL
 color-fondo: #271A27;
 color-principal: #3CC6B7;
 color-secundario: #B87038;
 
+ACTUAL
+color-fondos: #603160;
+color-principal: #3CC6B7;
+color-secundario: #C99CC9;
+color-terciario: #E08742;
+color-cards: #2E2D2D;
 
 */
  
@@ -52,7 +53,7 @@ h2 {
 
 .fondo_header {
 
-    background-color: #271A27;
+    background-color: #603160;
     height: 70px;
     margin-bottom: 22px;
     z-index: 999;
@@ -96,10 +97,10 @@ a {
     position: fixed;
     height: 100vh;
     width: 70vw;
-    background-color: #271A27;
-    color: #B87038;
+    background-color: #603160;
+    color: #E08742;
     font-size: 22px;
-    box-shadow: 6px 0px 10px black;
+    box-shadow: 0px 0px 12px white;
     left: -80vw;
     transition: 0.4s left;
     top: 0;
@@ -141,10 +142,10 @@ a {
     position: fixed;
     height: 100vh;
     width: 70vw;
-    background-color: #271A27;
-    color: #B87038;
+    background-color: #603160;
+    color: #E08742;
     font-size: 22px;
-    box-shadow: -6px 0px 10px black;
+    box-shadow: 0px 0px 12px white;
     right: -80vw;
     transition: 0.4s right;
     top: 0;
@@ -213,8 +214,10 @@ a {
 
 .card {
 
+    background-color: #2E2D2D;
     box-shadow: 2px 2px 5px #3CC6B7;
-    border: 2px solid #271A27;
+    color: white;
+    border: 2px solid #C99CC9;
     border-right: none;
     margin: 0 10px;
 
@@ -223,7 +226,7 @@ a {
 .separacion {
 
     margin-top: -10px;
-
+    
 }
 
 .card-footer {
@@ -237,8 +240,10 @@ a {
 /* TIMES - INICIO */
 .list-group-item  {
 
-    border: 2px solid #271A27;
+    border: 2px solid #C99CC9;
     padding: 15px;
+    background-color: #2E2D2D;
+    color: white;
 
 
 }
@@ -258,9 +263,13 @@ a {
 
     width: 100%;
     height: 290px;
-    border: 2px solid #271A27;
+    border: 2px solid #C99CC9;
     background: white;
     box-shadow: 2px 2px 5px #3CC6B7;
+
+    background-color: #2E2D2D;
+    color: white;
+
 
 }
 
@@ -268,7 +277,7 @@ a {
 
     text-align: center;
     font-size: 20px;
-    border-bottom: 2px solid #271A27;
+    border-bottom: 2px solid #C99CC9;
     font-weight: bold;
      
 }
@@ -277,7 +286,7 @@ a {
 
     text-align: center;
     font-size: 15px;
-    border-bottom: 2px solid #271A27;
+    border-bottom: 2px solid #C99CC9;
     font-weight: 700;
 
 }
@@ -296,7 +305,7 @@ a {
 
     text-align: center;
 
-    border:  3px solid #8F562A;
+    border:  3px solid #E08742;
     border-radius: 8px;
     margin: 0 13px;
 
