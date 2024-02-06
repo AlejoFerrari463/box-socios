@@ -262,7 +262,7 @@ a {
 .agenda{
 
     width: 100%;
-    height: 290px;
+    height: 320px;
     border: 2px solid #C99CC9;
     background: white;
     box-shadow: 2px 2px 5px #3CC6B7;
@@ -297,7 +297,7 @@ a {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
     margin: 20px 0;
 }
 
@@ -305,7 +305,7 @@ a {
 
     text-align: center;
 
-    border:  3px solid #E08742;
+    border:  2px solid #E08742;
     border-radius: 8px;
     margin: 0 13px;
 
