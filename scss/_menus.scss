@@ -13,8 +13,8 @@
     position: fixed;
     height: 100vh;
     width: 70vw;
-    background-color: #603160;
-    color: #E08742;
+    background-color: $color-fondos;
+    color: $color-terciario;
     font-size: 22px;
     box-shadow: 0px 0px 12px white;
     left: -80vw;
@@ -58,8 +58,8 @@
     position: fixed;
     height: 100vh;
     width: 70vw;
-    background-color: #603160;
-    color: #E08742;
+    background-color: $color-fondos;
+    color: $color-terciario;
     font-size: 22px;
     box-shadow: 0px 0px 12px white;
     right: -80vw;
@@ -103,7 +103,7 @@
     
     display: grid;
     margin-top: 20px;
-    color: #3CC6B7;
+    color: $color-principal;
     grid-gap: 10px;
     text-align: center;
 

@@ -5,14 +5,14 @@
 .nombre {
 
     font-size: 30px;
-    color: #3CC6B7;
+    color: $color-principal;
 
 }
 
 
 .fondo_header {
 
-    background-color: #603160;
+    background-color: $color-fondos;
     height: 70px;
     margin-bottom: 22px;
     z-index: 999;
@@ -35,7 +35,7 @@ ul {
 
 a {
 
-    color: #3CC6B7;
+    color: $color-principal;
     text-decoration: none;
     font-size: 22px;
 

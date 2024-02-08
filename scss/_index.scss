@@ -4,9 +4,9 @@
 .card {
 
     background-color: #2E2D2D;
-    box-shadow: 2px 2px 5px #3CC6B7;
+    box-shadow: 2px 2px 5px $color-principal;
     color: white;
-    border: 2px solid #C99CC9;
+    border: 2px solid $color-secundario;
     border-right: none;
     margin: 0 10px;
 
