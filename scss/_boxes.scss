@@ -1,0 +1,28 @@
+/* BOXES - INICIO */
+
+.contenedorBox {
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+
+    text-align:center;
+
+}
+
+.achicarBox {
+
+    width: 85%;
+
+}
+
+.descripcionBox {
+
+    color: #3CC6B7;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+/* BOXES - FIN */

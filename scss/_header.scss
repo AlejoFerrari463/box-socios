@@ -1,0 +1,53 @@
+/* HEADER - INICIO */
+
+
+
+.nombre {
+
+    font-size: 30px;
+    color: #3CC6B7;
+
+}
+
+
+.fondo_header {
+
+    background-color: #603160;
+    height: 70px;
+    margin-bottom: 22px;
+    z-index: 999;
+
+}
+
+ul {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+   
+
+
+}
+
+
+
+a {
+
+    color: #3CC6B7;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+
+.menu {
+    
+    height: 50px;
+    object-fit: contain;
+    z-index: 1;
+
+
+}
+
+/* HEADER - FIN */

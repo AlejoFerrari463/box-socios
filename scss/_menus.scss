@@ -1,0 +1,115 @@
+
+/* HAMBURGUESA - INICIO */
+
+.hamburguesa {
+
+    position: relative;
+     
+
+}
+
+.hamburguesa_desplegar {
+
+    position: fixed;
+    height: 100vh;
+    width: 70vw;
+    background-color: #603160;
+    color: #E08742;
+    font-size: 22px;
+    box-shadow: 0px 0px 12px white;
+    left: -80vw;
+    transition: 0.4s left;
+    top: 0;
+    z-index: 1;
+}
+
+.hamburguesa:hover > .hamburguesa_desplegar {
+
+    left: 0px;
+
+}
+
+.contenedor_menu_hamburguesa {
+
+    display: grid;
+    margin-top: 55px;
+    padding-left: 10%;
+    grid-gap: 25px;
+
+
+}
+
+
+
+/* HAMBURGUESA - FIN */
+
+
+/* PERFIL - INICIO */
+
+.perfil {
+
+    position: relative;
+
+
+}
+
+.perfil_desplegar {
+
+    position: fixed;
+    height: 100vh;
+    width: 70vw;
+    background-color: #603160;
+    color: #E08742;
+    font-size: 22px;
+    box-shadow: 0px 0px 12px white;
+    right: -80vw;
+    transition: 0.4s right;
+    top: 0;
+    z-index: 1;
+
+
+}
+
+
+
+.perfil:hover > .perfil_desplegar {
+
+    right: 0px;
+
+}
+
+
+.foto_perfil_contenedor {
+
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.foto_perfil {
+
+    width: 130px;
+    height: 130px;
+  
+}
+
+
+
+.contenedor_menu_perfil {
+    
+    display: grid;
+    margin-top: 20px;
+    color: #3CC6B7;
+    grid-gap: 10px;
+    text-align: center;
+
+
+
+}
+
+
+/* PERFIL - FIN */
