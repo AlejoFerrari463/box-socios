@@ -1,10 +1,12 @@
 .contenedorWpp {
 
-    display: flex;
+    display: grid;
     justify-content: end;
+    z-index: 999;
     position: sticky;
-    z-index: 990;
-    top: 93%;
+    bottom: 60px;
+    margin-right: 10px;
+    margin-left: 99%;
 }
 
 .tamañoWpp {
