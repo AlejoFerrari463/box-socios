@@ -2,15 +2,15 @@
 
     display: grid;
     justify-content: end;
-    z-index: 999;
-    position: sticky;
-    bottom: 30px;
-    margin-right: 10px;
-    margin-left: 99%;
+    margin-right: 60px;
+
+   
 }
 
 .tamañoWpp {
-
+   
+    position: fixed;
+    bottom: 10px;
     width: 60px;
     object-fit: contain;
     filter: drop-shadow(0px 0px 5px white);
