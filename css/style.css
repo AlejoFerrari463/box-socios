@@ -242,6 +242,18 @@ a {
 }
 
 /* BOXES - FIN */
+@media (max-height: 330px) {
+  .contenedor_menu_hamburguesa {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-height: 380px) {
+  .contenedor_menu_perfil {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 10px;
+    font-size: 20px;
+  }
+}
 @media (min-height: 150px) and (max-height: 300px) {
   .contenedorWpp {
     top: 75%;
