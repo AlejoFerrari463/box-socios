@@ -208,6 +208,7 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   margin: 20px 0;
+  font-size: 16px;
 }
 
 .anotados {
@@ -245,6 +246,9 @@ a {
 @media (max-width: 340px) {
   .contenedor_menu_perfil {
     font-size: 18px;
+  }
+  .agenda {
+    height: 100%;
   }
 }
 @media (max-height: 330px) {
