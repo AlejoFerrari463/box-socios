@@ -64,6 +64,7 @@ a {
   height: 50px;
   object-fit: contain;
   z-index: 1;
+  cursor: pointer;
 }
 
 /* HEADER - FIN */
@@ -81,13 +82,9 @@ a {
   font-size: 22px;
   box-shadow: 0px 0px 12px white;
   left: -80vw;
-  transition: 0.4s left;
   top: 0;
   z-index: 1;
-}
-
-.hamburguesa:hover > .hamburguesa_desplegar {
-  left: 0px;
+  transition: 0.4s left;
 }
 
 .contenedor_menu_hamburguesa {
@@ -95,6 +92,10 @@ a {
   margin-top: 55px;
   padding-left: 10%;
   grid-gap: 25px;
+}
+
+.activar-hamburguesa {
+  left: 0;
 }
 
 /* HAMBURGUESA - FIN */
@@ -117,8 +118,8 @@ a {
   z-index: 1;
 }
 
-.perfil:hover > .perfil_desplegar {
-  right: 0px;
+.activar-perfil {
+  right: 0;
 }
 
 .foto_perfil_contenedor {
